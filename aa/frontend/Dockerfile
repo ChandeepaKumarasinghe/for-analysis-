@@ -1,4 +1,4 @@
-FROM node:18.20.5-bookworm-slim
+FROM node:18.20.8-bookworm-slim
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
